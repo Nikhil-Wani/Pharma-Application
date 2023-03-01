@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: pylint
+        name: pylint
+        files: ^.*.py$
+        entry: python -m pylint
+        language: system
+        types: [python]
